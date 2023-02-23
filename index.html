@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="ilyes1.css">
+        
+	<title>أوقات الدعوات</title>
+</head>
+<body>
+	<h1>Weather App</h1>
+	<p id="location"></p>
+	<p id="temperature"></p>
+	<p id="description"></p>
+    <!-- Api Time Prayer -->
+     
+<table class="table_time">
+
+    <tr>
+    <td>24</td>
+    <td>23</td>
+    <td>22</th>
+    <td>21</td>
+    <td>20</th>
+    <td>19</th>
+    <td>18</th>
+    <td>17</th>
+    <td>16</td>
+    <td>15</th>
+    <td>14</td>
+    <td>13</td>
+    <td>12</th>
+    <td>11</td>
+    <td>10</th>
+    <td>9</th>
+    <td>8</th>
+    <td>7</th>
+    <td>6</th>
+    <td>5</td>
+    <td>4</td>
+    <td>3</td>
+    <td>2</th>
+    <td>1</th>
+    <!-- <td>السّاعة الروحانية</td> -->
+    </tr>
+    <tr class="tr_doaa">
+    <th id="doaa_24">24د</th>
+    <th id="doaa_23">23</th>
+    <th id="doaa_22">22</th>
+    <th id="doaa_21">21</th>
+    <th id="doaa_20">20</th>
+    <th id="doaa_19">19</th>
+    <th id="doaa_18">18</th>
+    <th id="doaa_17">17</th>
+    <th id="doaa_16">16</th>
+    <th id="doaa_15">15</th>
+    <th id="doaa_14">14</th>
+    <th id="doaa_13">13</th>
+    <th id="doaa_12">12</th>
+    <th id="doaa_11">11</th>
+    <th id="doaa_10">10</th>
+    <th id="doaa_9">9</th>
+    <th id="doaa_8">8</th>
+    <th id="doaa_7">7</th>
+    <th id="doaa_6">6</th>
+    <th id="doaa_5">5</th>
+    <th id="doaa_4">4</th>
+    <th id="doaa_3">3</th>
+    <th id="doaa_2">2</th>
+    <th id="doaa_1">1</th>
+    
+    <!-- <td> التاريخ </td> -->
+    </tr>
+    <div>
+        <table cellspacing="0" style="border-collapse: collapse;">
+            <tbody>
+                <tr>
+                    <td style="height: 17px; text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">24</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">23</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">22</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">21</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">20</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">19</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">18</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">17</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">16</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">15</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">14</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">13</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                </tr>
+                <tr>
+                    <td style="height: 17px; text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3+د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">الأحد</span></td>
+                </tr>
+                <tr>
+                    <td style="height: 17px; text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">الإثنين</span></td>
+                </tr>
+                <tr>
+                    <td style="height: 17px; text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">الثلاثاء</span></td>
+                </tr>
+                <tr>
+                    <td style="height: 17px; text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">الأربعاء</span></td>
+                </tr>
+                <tr>
+                    <td style="height: 17px; text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1+د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">الخميس</span></td>
+                </tr>
+                <tr>
+                    <td style="height: 17px; text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5+د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">الجمعة</span></td>
+                </tr>
+                <tr>
+                    <td style="height: 17px; text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1+د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">&nbsp;</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د6</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د5</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د4</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د3</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د2</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د1</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د12</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د11</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د10</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د9</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د8</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">د7</span></td>
+                    <td style="text-align: center; vertical-align: bottom;"><span style="background-color: white;">السبت</span></td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+    
+    </table>
+    
+        <div>
+            <h1>دعوات الأيام والساعات</h1>
+            <details>
+                <summary>د1 = = = دعاء : 1</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 1</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000">( </span><span
+                                style="color:#0000ff">رب اغمسني في بحرٍ من نور هيبتك حتى أخرج منه وفي وجهي شعاعات هيبةٍ تخطف
+                                أبصار الحاسدين من الجن والإنس فتعميهم عن رمي سهام الحسد في قرطاس نعمتي ، واحجبني عنهم بحجاب
+                                النور الذي باطنه النور </span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#0000ff">وظاهره النار . أسألك
+                                باسمك النور وبوجهك النور يا نور النور أن تحجبني في نور اسمك حجاباً يمنعني من كل نقصٍ يمازج
+                                مني جوهراً أو عرضاً إنك نور الكل ومنور الكل بنورك</span><span style="color:#000000">
+                            </span><br />
+                            <br />
+                            <span style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000"><span style="background-color:#33ffff">قال البوني : تدعو بهذا الدعاء
+                                    ثمانياً وأربعين مرةً في هذه الساعة على وضوءٍ بعد صلاة ركعتين فيما يتعلق بسؤال الهيبة
+                                    وإقامة الكلمة وقهر العدو . ويناسب هذه الدعاء من القرآن قوله تعالى : &quot; الله نور
+                                    السماوات والأرض &quot; الآية ، قال : من قرأ هذه الآية هذا العدد المتقدم في بيتٍ مظلمٍ
+                                    وعيناه مغلقتان شاهد أنواراً عجيبةً تملأ قلبه ، وإن استدام ذلك تشكلت له في عالم الحس .
+                                    وهو ذكرٌ يصلح لأرباب الهمم وأهل الخلوات ، وكاتبه وحامله تظهر له زياداتٌ في قوى نفسه وقهر
+                                    عدوه وخصمه لم يكن يعدها من قبل ، ومن أمكنه أن يداوي به العلل الكائنة في الرأس خصوصاً من
+                                    البرودة وجد تأثير ذلك لوقته .</span></span></span></span>
+                </p>
+    
+            </details>
+    
+            <details>
+                <summary>دعاء : 2</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 2</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000">( </span><span style="color:#0000ff">رب فرحني بما ترضى به عني فرحاً
+                                يبهجني بجميل المسار ، حتى لا ينبسط شيءٌ من وجودي إلا بما بسطه جودك العلي . رب فرحني بنيل
+                                المراد منك بفناء إرادتي مني حتى لا يكون في كوني إرادةٌ إلا إرادتك محفوظةً من عوارض التكوين ،
+                                وأبهج بذلك في سر سماء الأفراح في الوجودين برزق الباطن والظاهر ، إنك باسط الرزق والرحمة يا ذا
+                                الجود الباسط يا ذا البسط والجود</span><span style="color:#000000"> ) .</span><br />
+                            <br />
+                            <span style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span>
+                </p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000"><span style="background-color:#33ffff">هذا الذكر من ذكره في ساعةٍ من
+                                    هذه الساعات تسعاً وأربعين مرةً أذهب الله تعالى عن قلبه الحزن وعن صدره الحرج والضيق ،
+                                    ونفى عنه كل همٍ وغم ، وبه يدعوا المسجونون والمأسورون والمحزونون فيفرج الله تعالى عنهم ،
+                                    وذلك بعد صلاة تسليمتين ، والآيات المناسبة لهذا القسم &quot; فرحين بما آتاهم الله من فضله
+                                    &quot; الآية ، &quot; قل بفضل الله وبرحمته &quot; الآية . قال البوني : ويقدم على ذكر هذه
+                                    الآيات : اللهم اجعلني من الفرحين بما آتاهم الله من فضله ، يقول ذلك بعد الذكر الأول مثل
+                                    العدد المذكور ، فيرى المهموم من فضل الله تعالى به عجباً ، ويزداد به ذلك السرور سروراً لا
+                                    يعرف سببه . ويصلح هذا الذكر لأرباب الفيض من أهل الخلوات فإنهم يستروحون منه أنساً في
+                                    خلواتهم ومخاطباتٍ بألفاظٍ مختلفةٍ بقدر الفيض والمقام والسبب ، يعرف ذلك من كانت له إحاطةٌ
+                                    بكشف أسرار الدعوات والأسماء .</span></span></span></span>
+                </p>
+    
+            </details>
+            <details>
+                <summary>دعاء : 3</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 3</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000">(( </span><span style="color:#0000ff">رب قلبني في أطوار معارف أسمائك
+                                تقليباً تشهدني به في ذرات وجودي ما أودعته ذرات وجودي الملك والملكوت حتى أعاين سريان قدرك في
+                                معالم المعلومات ، فلا يبقى معلومٌ إلا وبيدي سر دقيقةٍ منه مجذوبةٍ بيد الكمال ونور الطوع ،
+                                وأذهب ظلمة الإكراه حتى أتصرف في المهج بمبهجات المحبة إنك أنت المحب المحبوب يا مقلب
+                                القلوب</span><span style="color:#000000"> )</span><br />
+                            <br />
+                            <span style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span>
+                </p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000"><span style="background-color:#33ffff">قال : من دعا بهذا الاسم والذكر
+                                    ست عشرة مرةً بعد صلاة ثلاث تسليماتٍ قلب الله قلبه عن كل خاطر فيه نقصٌ إلى كل خاطرٍ فيه
+                                    كمالٌ في حقه ، ويصلح لأرباب الاستخارات ، وفيه لسرعة قضاء الحاجات معنًى بديع . والآيات
+                                    المناسبة له &quot; قوله الحق ، وله املك &quot; ، وقوله تعالى : &quot; يكور الليل على
+                                    النهار &quot; إلى آخر الآية ، وقوله تعالى : &quot; فإن مع العسر يسراً إن مع العسر يسراً
+                                    &quot; الآية ، وما يناسب ذلك من القرآن .</span></span><br />
+                            <span style="color:#000000"><span style="background-color:#33ffff">وهو ذكرٌ يصلح لأرباب القلوب
+                                    من تكرار الخواطر والوساوس ، وله في تقلب الأحوال أمورٌ عجيبةٌ عظيمةٌ لمن فهم ذلك ، وكذلك
+                                    من كتب الذكر كله وعلقه عليه عصمه الله في تقلباته من الآفات حتى في أمور دنياه وآخرته
+                                </span>.</span></span></span>
+                </p>
+    
+            </details>
+            <details>
+                <summary>دعاء : 4</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 4</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000">&nbsp;( </span><span style="color:#0000ff">رب قابلني بنور اسمك مقابلةً
+                                تملئ وجودي ظاهراً وباطناً حتى تمحو مني حظوظ الأشكال كلها فيبدوا لي في وجودي ومن وجودي سر ما
+                                كتبه قلم تقديرك من كل مستودعٍ في مستقرٍ ومستقرٍ في مستودعٍ فلا يخفى علي ما غاب عني فأنظرني
+                                بك وأنظر من سواي بنور اسمك فأرى الكمال المطلق في الملك المطلق ، يا مودع الأنوار قلوب عباده
+                                الأبرار يا سريع يا قريب</span><span style="color:#000000"> )</span><br />
+                            <br />
+                            <span style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span>
+                </p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000"><span style="background-color:#33ffff">قال : من دعا في ساعةٍ من هذه
+                                    الأبيات ست عشرة مرةً ثم قصد أي حاجةٍ أراد ، أسرع الله تعالى قضاءها ونمى له ما يملكه من
+                                    مالٍ أو جاهٍ أو حالٍ أو مقام . ومن خاصة هذا الذكر وضع البركة في أي شيءٍ وضع عليه . ويصلح
+                                    هذا الذكر لمطالبي المكاشفات من أرباب الخلوات فإنهم إذا داوموا هذا الذكر ألقي إليهم
+                                    الخاطر الصحيح . قال : وإن أضيف له يا سريع يا قريب يا مبين ظهر ما يريد من كشف العواقب في
+                                    الأفعال المرتطبة بعالم الغيب والشهادة . .</span></span></span></span>
+                </p>
+    
+            </details>
+            <details>
+                <summary>دعاء : 5</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 5</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000">( </span><span style="color:#0000ff">رب أسألك مدداً روحانياً تقوي به
+                                قواي الكلية والجزئية حتى أقهر بمبادئ نفسي كل نفسٍ قاهرةٍ قتنقبض لي رقابها انقباضاً تسقط بها
+                                قواها ، فلا يبقى في الكون ذي روحٍ إلا ونار القهر أخمدت ظهوره ، يا شديد يا ذا البطش يا قهار
+                                يا جبار أسألك بما أودعته عزرائيل من قوى أسمائك القهرية فانفعلت له النفوس بالقهر أن تكسوني
+                                ذلك السر في هذه الساعة حتى ألين به كل صعب ، وأذل به كل منيعٍ بقوتك يا ذا القوة
+                                المتين</span><span style="color:#000000"> ) .</span><br />
+                            <br />
+                            <span style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span>
+                </p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000"><span style="background-color:#33ffff">قال : من دعا بهذا الدعاء في
+                                    ساعةٍ من هذه الساعات تسعاً وثمانين مرة ، ثم دعا على ظالمٍ أخذ لوقته ، وذلك بعد صلاة خمس
+                                    تسليماتٍ بالفاتحة لا غير . ويناسب هذا الدعاء من آي القرآن العظيم &quot; وكذلك أخذ ربك
+                                    إذا أخذ القرى وهي ظالمةٌ إن أخذه أليمٌ شديد &quot; . قال : في هذا الذكر قمع الجبابرة ،
+                                    وقطع دابر الظالمين ، وخراب ديار الماردين ، وما شابه ذلك . وهو ذكرٌ يليق بالسالكين في
+                                    مبادئ الرياضيات والمنتهين في مقامات التجلي إلى الخلوة ، وهو من الأسرار العجيبة ، ولا
+                                    يذكره من غلبته الشيخوخة إلا وجد في قلبه خفقاناً بالخاصية ، ولا يذكره محمومٌ إلا برئ من
+                                    حماه لوقته ، وإن كتبه وعلقه عليه دامت صحته .</span></span></span></span>
+                </p>
+    
+            </details>
+            <details>
+                <summary>دعاء : 6</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 6</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000">( </span><span style="color:#0000ff">رب صفني من كدرات الأغيار صفاء من
+                                صفته يد عنايتك من نقص التكوين حتى ينجلي في مرآة قلبي ومستوى نفسي كل اسمٍ انطبع في قوة
+                                جبرائيل فقوي به على كشف ما في اللوح من أسرار أسمائك ومجامع رسائلك ، فكل نفسٍ منفوسة امتدت
+                                لها من دقائقه دقيقةٌ طرفها منه والثاني لمن هو به ، ومجامع هذه الدقائق في دقيقة الاسم
+                                الجبرائيلي العالم العليم العلام ، يا ذا الكرم الذي علم بالقلم ، فمواد الوحي والإلهام
+                                والتحديث والفهم تسري بنفحةٍ منه في هذه الساعة إلى مثلها . إلهي منطقني بالدقيقة العظمى منه
+                                حتى أتلقى عنك بما به تلقى عنك جبرائيل مما أملأ به وجودي بلا ميلٍ لغلبةٍ حتى أتلذذ بمصافاتك
+                                تلذذ جبريل برسائلك ، إنك علام الغيوب</span><span style="color:#000000"> ) .</span><br />
+                            <br />
+                            <span style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span>
+                </p>
+    
+                <p dir="rtl" style="text-align:center"><br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#000000"><span style="background-color:#33ffff">قال : من دعا به خمساً وعشرين
+                                    مرةً في ساعةٍ من هذه الساعات ألهم رشده في عواقب أموره . والاسم اللائق بهذا الدعاء يا
+                                    علام الغيوب يا عالم الخفيات وما شاكل هذا النمط من الأسماء ، ومن القرآن العظيم &quot;
+                                    وعنده مفاتح الغيب &quot; الآية . قال : وهو من الكبريت الأحمر وبعضه من الدرياق الأكبر .
+                                    وهذا الذكر للذي فتح عليه بابٌ من المعارف فإنه مهما استدامه ألهم قلبه إلى علومٍ جليلةٍ ،
+                                    ويخاطب في نفسه بإلقاءاتٍ من وحي الإلهام ، ويخاطبه الحيوان بمعنى يفهمه فيستفيد علوماً
+                                    عظيمةً ، يعرف ذلك أرباب المنازلات لفهم الحديث .</span></span></span></span>
+                </p>
+    
+            </details>
+            <details>
+                <summary>دعاء : 7</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 7</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000">(</span><span
+                                style="color:#0000ff"> رب أوقفني موقف العز حتى لا أجد في ذرةً ولا رقيقةً ولا دقيقةً إلا وقد
+                                غشاها من عز عزتك ما منعها من الذل لغيرك ، حتى لا أشهد ذل من سواي لعزتي بك مؤيداً برقيقةٍ من
+                                الرعب يخضع لها كل شيطانٍ مريد ، وجبارٍ عنيد ، وأبق على ذل العبودية في العزة بقاءً يبسط لسان
+                                الاعتراف ، ويقبض لسان الدعوى ، إنك العزيز الجبار المتكبر القهار </span><span
+                                style="color:#000000">)</span><br />
+                            <br />
+                            <span style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000"><span
+                                    style="background-color:#33ffff">قال : من دعا بهذا الدعاء في هذه الساعة أو في ساعةٍ من
+                                    هذه الساعات ست عشرة مرةً بعد صلاةٍ وحضور قلبٍ نصر على أي عدوٍ قصده ظاهراً وباطناً
+                                    .</span></span></span></span></p>
+    
+            </details>
+            <details>
+                <summary>دعاء : 8</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 8</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000">( </span><span
+                                style="color:#0000ff">إلهي أطلع على وجودي شمس شهودي منك في الأكوان والألوان حتى أمشي بما
+                                أشهدتني في آفاق الملكوت منه معنى كلمة التكوين فينفعل لي كل مكونٍ انفعاله للكلمة بإذنك الذي
+                                سخرت به ما في الوجودين بلا ظلمة وضعٍ ولا ظلمة طبع ، إنك منور الكل بكلك ومنور الأنوار بنورك
+                                الذي صدوره عن اسمك النور والظاهر والحي والقيوم ، كل شيءٍ هالكٌ إلا وجهك</span><span
+                                style="color:#000000"> ) الآية .</span><br />
+                            <br />
+                            <span style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000"><span
+                                    style="background-color:#33ffff">قال البوني : لا يذكر أحدٌ هذا الذكر في ساعةٍ من هذه
+                                    الساعات تسعاً وأربعين مرةً إلا كساه الله نوراً يجد ذلك في نفسه ، وييسر عليه المقسوم من
+                                    الرزق ، وتسري كلمته في الأسباب سرياناً عجيباً . وهو ذكرٌ يصلح لأرباب المكاشفات يثبت لهم
+                                    ما يكاشفون .</span></span></span></span></p>
+    
+            </details>
+            <details>
+                <summary>دعاء : 9</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 9</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000">( </span><span
+                                style="color:#0000ff">سيدي أدخلني في بواطن رياض اسمك من الباب الخاص الذي لا يحجب بنورٍ ولا
+                                بظلمةٍ ولا بشيءٍ منه ولا بشيءٍ خارجٍ عنه وأطلق يد قواي في نيل النعمة ، وألهمني تحقيق ذوق كل
+                                مذوق منه حتى أكون بك فيه وأكون فيه بك مبتهجاً منك وبك ، رب إنك لطيفٌ عطوفٌ رحيمٌ
+                                رحمن</span><span style="color:#000000"> ) .</span><br />
+                            <br />
+                            <span style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000"><span
+                                    style="background-color:#33ffff">قال : هذا الذكر بخاصيةٍ فيه يجلب الفرح ويذهب الحزن
+                                    ويطيب الوقت ويجلو الكرب ، ومن دعا به أربعين مرةً في ساعةٍ من هذه الساعات على طهارةٍ
+                                    واستقبالٍ فرج به كربه وانجلى غمه .</span></span></span></span></p>
+    
+            </details>
+            <details>
+                <summary>دعاء : 10</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 10</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000">( </span><span
+                                style="color:#0000ff">يا من نسبة العلوم إلى علمه نسبة لا شيء لشيءٍ لا يتناهى ، أظهرت الحروف
+                                بالقلم فكان لها صريفٌ في ألواح الملكوت قام لها مقام مخارج الحروف من الحلق والصدر واللها
+                                واللسان ، كل جنسٍ صدر عنه اسمٌ لا يعلم تركيبه سوى ملك قلمك ، وكل نوعٍ صدر عنه مركباً ، فلوح
+                                إسرافيل أظهره بقوة ما في آحاد كلياته من جزئيات تراكيبه ، أسألك بهذا السر الخفي الذي وقف
+                                العقل دونه وتقدم إليك السر بسرٍ أودعته فيه يوم إمكان وجوده ، أسألك كشف حجاب الغيب حتى أعاين
+                                الغيب بما به حي الروح الباقي ، يا حي،ياه يا هو ، يا أنت يامهيمن يا خالق يا بارئ أنت
+                                هو</span><span style="color:#000000">)</span><br />
+                            <br />
+                            <span style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000"><span
+                                    style="background-color:#33ffff">قال البوني : هذا الذكر من ذكره في ساعةٍ من هذه الساعات
+                                    مائة مرةٍ يسر له قضاء أي حاجةٍ قصدها بغير مشقةٍ .</span></span></span></span></p>
+    
+            </details>
+            <details>
+                <summary>دعاء : 11</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span style="background-color:#000000">دعاء 11</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000">(</span><span style="color:#0000ff"> يا من لوجوده العلي باعتبار حكمته إلى كل موجودٍ حصل من وجوده اسمٌ يليق به هو مفتاحه الخاص ، ومعناه المغيب ، وحقيقته الوجودية وسره القابل ، فما في الأكوان جوهر فردٍ من جواهر آحاد العالم العلوي والسفلي إلا ومقاليد أحكامه متعلقةٌ باسمٍ من أسمائه ، واجتماعها برقائقها بيد اسمك الذي استأثرت به عن جميع خلقك فلم يظهر لهم إلا ما ناسب الأفعال ، فأسماؤك إلهي لا تحصى ، ومعلوماتك لا نهاية لها ، أسألك غمسةً في بحر هذا النور حتى أعود إلى الكمال الأول فأتصرف في الكون باسم الكمال تصرفاً ينفي النقص بالوقوف على عبودية النقص ، إنك المعز المذل اللطيف الخبير العدل المجيب</span><span style="color:#000000"> ) .</span></span></span><br />
+                <br />
+                <br />
+                <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#f1c40f"><span style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span></p>
+                
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000"><span style="background-color:#33ffff">قال : من ذكر هذا الذكر ست عشرة مرةً في ساعةٍ من هذه الساعات ثم سأل الله تعالى فيها رزقاً ، وتيسير أسبابٍ ، وسكون بحرٍ هائجٍ ، وسلطانٍ غاصبٍ ، ونفسٍ متمردةٍ من شيطاني الإنس والجن وما ناسب ذلك إلا أجيب له لوقته ، وذلك على طهارةٍ وصلاةٍ وجمع همةٍ في موضعٍ خالٍ من الأصوات.</span></span></span></span></p>
+                
+            </details>
+            <details>
+                <summary>دعاء : 12</summary>
+                <p dir="rtl" style="text-align:center"><span style="color:#f1c40f"><span style="font-size:26px"><span
+                                style="background-color:#000000">دعاء 12</span></span></span></p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000">( </span><span
+                                style="color:#0000ff">تعاليت يا من تقاصر كل فكرٍ عن حصر معنًى من معاني أسمائه ، فكل علوٍ
+                                ورفعةٍ فمن ذلك العلو والرفعة صدوره ظاهراً وباطناً ، وتقدس مجدك يا من أستار عرشه أظهر فيها
+                                كبرياءه ومجده ، أسألك بالصفات التي لا تعلق لها بموجود ، يا ذا العظمة والكبرياء والجلال
+                                والجمال والبهاء ، أسألك الأنس بمقابلات سر القدر أنساً يمحو آثار وحشة الفكر حتى يطيب وقتي بك
+                                فأطيب بوقتي لك ، فلا يتحرك ذو طبعٍ لمخالفتي إلا صغر لعظمتك وقصم بكبريائك ، إنك جبار الأرض
+                                والسماء ، وقاهر الكل بقهرك يا مجيب</span><span style="color:#000000"> )
+                                .</span></span></span><br />
+                    <br />
+                    <br />
+                    <span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif"><span
+                                style="color:#f1c40f"><span
+                                    style="background-color:#000000">خواصـــــــــــــــه</span></span></span></span>
+                </p>
+    
+                <p dir="rtl" style="text-align:center"><span style="font-size:24px"><span
+                            style="font-family:Arial,Helvetica,sans-serif"><span style="color:#000000"><span
+                                    style="background-color:#33ffff">قال البوني : من ذكر هذا الذكر سبعاً وعشرين مرةً في
+                                    ساعةٍ من هذه الساعات ودعا بما يريد كفي لوقته شر ما يحاذره</span></span></span></span>
+                </p>
+    
+            </details>
+    
+    
+        </div>
+    <!-- End Api Time Prayer -->
+
+
+    <h1>OpenWeatherMap API - Sunrise and Sunset Time Information</h1>
+    <p id="sunrise"></p>
+    <p id="sunset"></p>
+    <hr>
+    <p id="length"></p>
+    <p id="length_day"></p>
+    <p id="centres_day"></p>
+
+    <hr>
+
+    <p id="fave1"></p>
+
+    <p id="fave2"></p>
+    <p id="fave3"></p>
+    <p id="fave4"></p>
+    <p id="fave5"></p>
+    <p id="fave6"></p>
+    <p id="fave7"></p>
+    <p id="fave8"></p>
+    <p id="fave9"></p>
+    <p id="fave10"></p>
+    <p id="fave11"></p>
+    <p id="fave12"></p>
+    <hr>
+
+        <!-- favor for night -->
+
+     <p id="night_unit_length"></p>
+    <p id="length_night"></p>
+    <p id="centre_night"></p>
+    
+
+    <hr>
+    
+    <p id="night13"></p>
+    <p id="night14"></p>
+    <p id="night15"></p>
+    <p id="night16"></p>
+    <p id="night17"></p>
+    <p id="night18"></p>
+    <p id="night19"></p>
+    <p id="night20"></p>
+    <p id="night21"></p>
+    <p id="night22"></p>
+    <p id="night23"></p>
+    <p id="night24"></p> 
+
+
+    <!-- end ..favor for night -->
+
+	<script>
+		const locationPara = document.getElementById("location");
+		const temperaturePara = document.getElementById("temperature");
+		const descriptionPara = document.getElementById("description");
+
+		// check if geolocation is supported
+		if (navigator.geolocation) {
+			// watch the user's position and update the locationPara element
+			const watchId = navigator.geolocation.watchPosition(position => {
+				const latitude = position.coords.latitude;
+				const longitude = position.coords.longitude;
+				locationPara.innerText = `Your location: ${latitude}, ${longitude}`;
+
+				// make a request to OpenWeatherMap API to get weather data for the current location
+				const apiKey = "df4d5618ae253bd1828a859d96f52e52";
+				const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
+				
+         
+                
+                
+                fetch(apiUrl)
+					.then(response => response.json())
+					.then(data => {
+						const temperature = data.main.temp;
+						const description = data.weather[0].description;
+						temperaturePara.innerText = `Temperature: ${temperature} °C`;
+						descriptionPara.innerText = `Description: ${description}`;
+                        
+          // Get the sunrise and sunset time from the API response
+          const sunrise = new Date(data.sys.sunrise * 1000);
+          const sunset = new Date(data.sys.sunset * 1000);
+
+          // Display the sunrise and sunset time on the page
+          document.getElementById('sunrise').textContent = `Sunrise: ${sunrise.toLocaleTimeString()}`;
+          document.getElementById('sunset').textContent = `Sunset: ${sunset.toLocaleTimeString()}`;
+
+          // Calculate the length of the day in minutes
+          const lengthInMinutes = (sunset - sunrise) / (1000 * 60);
+          const lengthday = (sunset - sunrise) /(60*60*1000);
+        
+          const lengthnight = (24) -(sunset - sunrise) / (60*60*1000);
+          const lengt_minute_night = (24*60) -(sunset - sunrise) / (60 * 1000);
+          
+
+        
+
+          // Calculate the unit length (1/12th of the day length)
+          const unitLength = lengthInMinutes / 12;
+          const unitLength_night = lengt_minute_night / 12;
+          
+          console.log(lengthnight);
+          console.log(unitLength_night);
+        
+
+          // Calculate the favorite times using the unit length day
+          const favorite1 = new Date(sunrise.getTime() + (unitLength * 60 * 1000));
+          const favorite2 = new Date(favorite1.getTime() + (unitLength * 60 * 1000));
+          const favorite3 = new Date(favorite2.getTime() + (unitLength * 60 * 1000));
+          const favorite4 = new Date(favorite3.getTime() + (unitLength * 60 * 1000));
+          const favorite5 = new Date(favorite4.getTime() + (unitLength * 60 * 1000));
+          const favorite6 = new Date(favorite5.getTime() + (unitLength * 60 * 1000));
+          const favorite7 = new Date(favorite6.getTime() + (unitLength * 60 * 1000));
+          const favorite8 = new Date(favorite7.getTime() + (unitLength * 60 * 1000));
+          const favorite9 = new Date(favorite8.getTime() + (unitLength * 60 * 1000));
+          const favorite10 = new Date(favorite9.getTime() + (unitLength * 60 * 1000));
+          const favorite11 = new Date(favorite10.getTime() + (unitLength * 60 * 1000));
+          const favorite12 = new Date(favorite11.getTime() + (unitLength * 60 * 1000));
+          
+
+          // Calculate the favorite times using the unit length night
+          const favorite13 = new Date(sunset.getTime() + (unitLength_night * 60 * 1000));
+          const favorite14 = new Date(favorite13.getTime() + (unitLength_night * 60 * 1000));
+          const favorite15 = new Date(favorite14.getTime() + (unitLength_night * 60 * 1000));
+          const favorite16 = new Date(favorite15.getTime() + (unitLength_night * 60 * 1000));
+          const favorite17 = new Date(favorite16.getTime() + (unitLength_night * 60 * 1000));
+          const favorite18 = new Date(favorite17.getTime() + (unitLength_night * 60 * 1000));
+          const favorite19 = new Date(favorite18.getTime() + (unitLength_night * 60 * 1000));
+          const favorite20 = new Date(favorite19.getTime() + (unitLength_night * 60 * 1000));
+          const favorite21 = new Date(favorite20.getTime() + (unitLength_night * 60 * 1000));
+          const favorite22 = new Date(favorite21.getTime() + (unitLength_night * 60 * 1000));
+          const favorite23 = new Date(favorite22.getTime() + (unitLength_night * 60 * 1000));
+          const favorite24 = new Date(favorite23.getTime() + (unitLength_night * 60 * 1000));
+
+          // Display the favorite times on the page 1--12
+          document.getElementById('length_day').textContent = `طول النهار: ${lengthday}ساعة `;
+
+          document.getElementById('length').textContent = `One unit length Of Day : ${unitLength.toFixed(2)} minutes`;
+          document.getElementById('fave1').textContent = ` ساعة الشروق الأولى: 1: ${sunrise.toLocaleTimeString()}  .. إلى ..${favorite1.toLocaleTimeString()}`;
+          document.getElementById('centres_day').textContent = ` منتصف النهار  : ${favorite6.toLocaleTimeString()}`;
+
+          document.getElementById('fave2').textContent = `ساعة الشروق الثانية: 2:  ${favorite1.toLocaleTimeString()}  .. إلى ..${favorite2.toLocaleTimeString()}`;
+          document.getElementById('fave3').textContent = `ساعة الشروق الثالثة: 3:  ${favorite2.toLocaleTimeString()}  .. إلى ..${favorite3.toLocaleTimeString()}`;
+          document.getElementById('fave4').textContent = `ساعة الشروق الرابعة: 4:  ${favorite3.toLocaleTimeString()}  .. إلى ..${favorite4.toLocaleTimeString()}`;
+          document.getElementById('fave5').textContent = `ساعة الشروق الخامسة: 5:  ${favorite4.toLocaleTimeString()}  .. إلى ..${favorite5.toLocaleTimeString()}`;
+          document.getElementById('fave6').textContent = `ساعة الشروق السادسة: 6:  ${favorite5.toLocaleTimeString()}  .. إلى ..${favorite6.toLocaleTimeString()}`;
+          document.getElementById('fave7').textContent = `ساعة الشروق السابعة: 7:  ${favorite6.toLocaleTimeString()}  .. إلى ..${favorite7.toLocaleTimeString()}`;
+          document.getElementById('fave8').textContent = `ساعة الشروق الثامنة: 8:  ${favorite7.toLocaleTimeString()}  .. إلى ..${favorite8.toLocaleTimeString()}`;
+          document.getElementById('fave9').textContent = `ساعة الشروق التاسعة: 9:  ${favorite8.toLocaleTimeString()}  .. إلى ..${favorite9.toLocaleTimeString()}`;
+          document.getElementById('fave10').textContent = `ساعة الشروق العاشرة: 10:  ${favorite9.toLocaleTimeString()}  .. إلى ..${favorite10.toLocaleTimeString()}`;
+          document.getElementById('fave11').textContent = `ساعة الشروق الحادية عشر: 11:  ${favorite10.toLocaleTimeString()}  .. إلى ..${favorite11.toLocaleTimeString()}`;
+          document.getElementById('fave12').textContent = `ساعة الشروق الثانية عشر: 12:  ${favorite11.toLocaleTimeString()}  .. إلى ..${favorite12.toLocaleTimeString()}`;
+   
+          // Display the favorite times on the page 13--24
+   
+          
+          document.getElementById('length_night').textContent = `طول الليل: ${lengthnight}ساعة `;
+          document.getElementById('night_unit_length').textContent = `One unit length Of Night : ${unitLength_night.toFixed(2)} minutes`;
+          document.getElementById('centre_night').textContent = ` منتصف الليل  : ${favorite18.toLocaleTimeString()}`;
+
+          document.getElementById('night13').textContent = `ساعة الشروق الثالثة عشر: 13: ${sunset.toLocaleTimeString()}  .. إلى ..${favorite13.toLocaleTimeString()}`;
+          document.getElementById('night14').textContent = `ساعة الشروق الرابعة عشر: 14:  ${favorite13.toLocaleTimeString()}  .. إلى ..${favorite14.toLocaleTimeString()}`;
+          document.getElementById('night15').textContent = `ساعة الشروق الخامسة عشر: 15:  ${favorite14.toLocaleTimeString()}  .. إلى ..${favorite15.toLocaleTimeString()}`;
+          document.getElementById('night16').textContent = `ساعة الشروق السادسة عشر: 16:  ${favorite15.toLocaleTimeString()}  .. إلى ..${favorite16.toLocaleTimeString()}`;
+          document.getElementById('night17').textContent = `ساعة الشروق السابعة عشر: 17:  ${favorite16.toLocaleTimeString()}  .. إلى ..${favorite17.toLocaleTimeString()}`;
+          document.getElementById('night18').textContent = `ساعة الشروق الثامنة عشر: 18:  ${favorite17.toLocaleTimeString()}  .. إلى ..${favorite18.toLocaleTimeString()}`;
+          document.getElementById('night19').textContent = `ساعة الشروق التاسعة عشر: 19:  ${favorite18.toLocaleTimeString()}  .. إلى ..${favorite19.toLocaleTimeString()}`;
+          document.getElementById('night20').textContent = `ساعة الشروق العشرون: 20:  ${favorite19.toLocaleTimeString()}  .. إلى ..${favorite20.toLocaleTimeString()}`;
+          document.getElementById('night21').textContent = `ساعة الشروق الواحدة وعشرون: 21:  ${favorite20.toLocaleTimeString()}  .. إلى ..${favorite21.toLocaleTimeString()}`;
+          document.getElementById('night22').textContent = `ساعة الشروق الثانية وعشرين: 22:  ${favorite21.toLocaleTimeString()}  .. إلى ..${favorite22.toLocaleTimeString()}`;
+          document.getElementById('night23').textContent = `ساعة الشروق الثالثة وعشرين: 23:  ${favorite22.toLocaleTimeString()}  .. إلى ..${favorite23.toLocaleTimeString()}`;
+          document.getElementById('night24').textContent = `ساعة الشروق  الرابعة وعشرين: 24:  ${favorite23.toLocaleTimeString()}  .. إلى ..${favorite24.toLocaleTimeString()}`;
+      // // End Display the favorite times Sunset on the page
+
+
+					})
+					.catch(error => console.log(error));
+			});
+		} else {
+			locationPara.innerText = "Geolocation is not supported by this browser.";
+		}
+
+
+	</script>
+    <script src="ilyes1.js"></script>
+</body>
+</html>

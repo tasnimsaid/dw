@@ -1,0 +1,40 @@
+
+
+
+
+
+summary{
+    background: black;
+    color: aliceblue;
+    width: 300px;
+    text-align: center;
+    border: 1px solid cyan;
+    padding: 5px;
+    font-size: x-large;
+    
+    }
+    
+    
+    .table_time{
+    
+    border: 1px solid cyan;
+    font-size: large;
+    background-color: black;
+    color: aliceblue;
+    padding: 7px;
+    text-align: center;
+    justify-content: center;
+    
+    }
+    
+    .table_time th{
+    color: blue;
+        
+    }
+    .tr_doaa th{
+    background-color: black;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid cyan !important;
+    padding: 2px !important;
+    }
+    
